@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff5f5;
+    color: #333;
+}
+
+.header_31902624556 {
+    background-color: #ffb3c1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-bar_31902624556 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo_31902624556 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4d6d;
+}
+
+.nav-menu_31902624556 {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu_31902624556 li a {
+    text-decoration: none;
+    color: #590d22;
+    padding: 8px 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-menu_31902624556 li a:hover, .active_31902624556 {
+    background-color: #ff4d6d;
+    color: white;
+    border-radius: 20px;
+}
+
+.main-content_31902624556 {
+    margin-top: 120px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-contacto_31902624556 {
+    text-align: center;
+    color: #c9184a;
+    margin-bottom: 40px;
+}
+
+.contacto-container_31902624556 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.info-card_31902624556 {
+    flex: 1;
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    border-top: 5px solid #ff4d6d;
+}
+
+.info-card_31902624556 h2 {
+    color: #590d22;
+    font-size: 22px;
+}
+
+.separador_31902624556 {
+    border: 0;
+    height: 3px;
+    background: #ff758f;
+    width: 50px;
+    margin: 12px 0 20px 0;
+}
+
+.lista-horarios_31902624556 {
+    list-style: none;
+}
+
+.lista-horarios_31902624556 li {
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ffd3e2;
+}
+
+.nota-horario_31902624556 {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+}
+
+.info-card_31902624556 p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.mapa-simulado_31902624556 {
+    background-color: #e3f2fd;
+    border: 2px dashed #90caf9;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1565c0;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.footer_31902624556 {
+    background-color: #590d22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.social-icons_31902624556 a {
+    color: #ffccd5;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* MEDIA QUERY: Responsivo para móviles */
+@media (max-width: 768px) {
+    .nav-bar_31902624556 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contacto-container_31902624556 {
+        flex-direction: column;
+    }
+}
